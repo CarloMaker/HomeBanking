@@ -98,12 +98,16 @@ import { AnimateModule } from 'primeng/animate';
 import { CardModule } from 'primeng/card';
 import { BlockUIModule } from 'primeng/blockui';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { MainPageComponent } from './pages/main-page/main-page.component';
+import { FooterComponent } from './core/footer/footer.component';
+import {StyleClassModule} from 'primeng/styleclass';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    
+    MainPageComponent,
+    FooterComponent,    
   ],
   imports: [
     BrowserModule,
@@ -202,6 +206,7 @@ import { ProgressSpinnerModule } from 'primeng/progressspinner';
     TreeTableModule,
     AnimateModule,
     CardModule,
+    StyleClassModule
   ],
   providers: [],
   bootstrap: [AppComponent]

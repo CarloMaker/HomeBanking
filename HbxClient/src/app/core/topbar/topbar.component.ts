@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+//import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-topbar',
@@ -8,7 +8,7 @@ import { MenuItem } from 'primeng/api';
 })
 export class TopbarComponent {
 
-  items: MenuItem[] | undefined;
+//  items: MenuItem[] | undefined;
 
 
   logout(){
